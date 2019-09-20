@@ -16,7 +16,7 @@ class LoginTest extends SystimTestCase
          */
         $result = Systim::login($this->company, $this->username, $this->password);
 
-        $this->assertInstanceOf(SystimClient::class, $result);
+        $this->assertInstanceOf(Systim::class, $result);
         $this->assertEquals(38, strlen($result->getToken()));
     }
 
@@ -25,7 +25,7 @@ class LoginTest extends SystimTestCase
         $systim = new Systim($this->company);
         $result = $systim->doLogin($this->username, $this->password);
 
-        $this->assertInstanceOf(SystimClient::class, $result);
+        $this->assertInstanceOf(Systim::class, $result);
         $this->assertEquals(38, strlen($result->getToken()));
 
     }
