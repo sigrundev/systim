@@ -9,6 +9,7 @@ use Systim\Contracts\Clients\SystimClientInterface;
 
 class Systim
 {
+
     /**
      * @var string
      */
