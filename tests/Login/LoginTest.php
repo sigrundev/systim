@@ -2,7 +2,6 @@
 
 namespace Systim\Tests\Login;
 
-use Systim\Clients\SystimClient;
 use Systim\Systim;
 use Systim\Tests\SystimTestCase;
 

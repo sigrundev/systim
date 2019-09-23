@@ -16,11 +16,15 @@
         <testsuite name="Login Test">
             <directory suffix="Test.php">./tests/Login</directory>
         </testsuite>
+        <testsuite name="Functional Tests">
+            <directory suffix="Test.php">./tests/Functional</directory>
+        </testsuite>
     </testsuites>
     <filter>
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory>./tests</directory>
             <directory suffix="Test.php">./tests/Login</directory>
+            <directory suffix="Test.php">./tests/Functiona</directory>
         </whitelist>
     </filter>
 </phpunit>

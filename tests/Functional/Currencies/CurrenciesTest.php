@@ -1,6 +1,6 @@
 <?php
 
-namespace Systim\Tests\Currencies;
+namespace Systim\Tests\Functional\Currencies;
 
 use Systim\Tests\FunctionalSystimTestCase;
 
