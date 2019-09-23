@@ -24,7 +24,7 @@
         <whitelist processUncoveredFilesFromWhitelist="true">
             <directory>./tests</directory>
             <directory suffix="Test.php">./tests/Login</directory>
-            <directory suffix="Test.php">./tests/Functiona</directory>
+            <directory suffix="Test.php">./tests/Functional</directory>
         </whitelist>
     </filter>
 </phpunit>
